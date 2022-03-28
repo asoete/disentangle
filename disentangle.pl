@@ -11,7 +11,7 @@
 # REQUIREMENTS:  ---
 #         BUGS:  ---
 #        NOTES:  ---
-#      LICENSE:  ---
+#      LICENSE:  GPLv3
 #       AUTHOR:  Soete Arne (arne.soete@irc.vib-ugent.be)
 #      COMPANY:  VIB-UGent
 #      VERSION:  0.1
