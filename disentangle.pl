@@ -231,16 +231,16 @@ sub hlp {
    OPTIONS:
       --bin-size    : The size of the bins. (current value = $BIN_SIZE)
                       How many units should map into a singular bin.
-		      _optional_
+                      _optional_
       --bin-overlap : The overlap of the bins (current value = $BIN_OVERLAP)
                       How many units should bins overlap.
-		      _optional_
+                      _optional_
       --bin-field   : The column in the HKL file to use as bin input. Aka. bin
                       on this field. (current value = $BIN_FIELD)
-		      _optional_
+                      _optional_
       --distance    : Remove all consider all points duplicates when the
                       distance between two points is less than --distance.
                       (current value = $MIN_DISTANCE)
-		      _optional_
+                      _optional_
    "
 }
