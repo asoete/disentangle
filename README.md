@@ -4,13 +4,14 @@ Exclude overlapping spots from multi-crystal diffraction patterns
 
 ```
    USAGE:
-      ./disentangle.pl 
-         [--bin-size=<int:10>] \
-         [--bin-overlap=<int:2>] \
-         [--bin-field=<int:12>] \
-         [--distance=<int:10>] \
-         <file:left.HKL> 
-         <file:right.HKL>
+      ./disentangle.pl
+           [--bin-size=<int:10>] \
+           [--bin-overlap=<int:2>] \
+           [--bin-field=<int:12>] \
+           [--distance=<int:10>] \
+           <file:left.HKL>
+           <file:right.HKL>
+      ./disentangle.pl --help
 
    OUTPUT
       output is written to:

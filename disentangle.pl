@@ -216,12 +216,13 @@ sub hlp {
    return "
    USAGE:
       $0 
-         [--bin-size=<int:$BIN_SIZE>] \\
-         [--bin-overlap=<int:$BIN_OVERLAP>] \\
-         [--bin-field=<int:$BIN_FIELD>] \\
-         [--distance=<int:$MIN_DISTANCE>] \\
-         <file:left.HKL> \
-         <file:right.HKL>
+           [--bin-size=<int:$BIN_SIZE>] \\
+           [--bin-overlap=<int:$BIN_OVERLAP>] \\
+           [--bin-field=<int:$BIN_FIELD>] \\
+           [--distance=<int:$MIN_DISTANCE>] \\
+           <file:left.HKL> \
+           <file:right.HKL>
+      $0 --help
 
    OUTPUT
       output is written to:
