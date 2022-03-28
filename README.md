@@ -33,3 +33,9 @@ Exclude overlapping spots from multi-crystal diffraction patterns
                       (current value = 10)
                       _optional_
 ```
+
+## Dependencies
+
+- `perl` (>= v5.10)
+- perl module `Getopt::Long`
+- perl module `POSIX`
