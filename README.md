@@ -20,15 +20,15 @@ Exclude overlapping spots from multi-crystal diffraction patterns
 
    OPTIONS:
       --bin-size    : The size of the bins. (current value = 10)
-                      How many units should map into a singular bin.
+                      How many axis units should map into a singular bin.
                       _optional_
       --bin-overlap : The overlap of the bins (current value = 2)
-                      How many units should bins overlap.
+                      How many axis units should bins overlap.
                       _optional_
       --bin-field   : The column in the HKL file to use as bin input. Aka. bin
                       on this field. (current value = 12)
                       _optional_
-      --distance    : Remove all consider all points duplicates when the
+      --distance    : Consider all points duplicates when the euclidean
                       distance between two points is less than --distance.
                       (current value = 10)
                       _optional_
