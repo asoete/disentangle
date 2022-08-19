@@ -213,7 +213,7 @@ sub fileToBins {
 
 sub hlp {
 
-   return "
+   return <<"EOHELP";
    USAGE:
       $0 
            [--bin-size=<int:$BIN_SIZE>] \\
@@ -243,5 +243,8 @@ sub hlp {
                       distance between two points is less than --distance.
                       (current value = $MIN_DISTANCE)
                       _optional_
-   "
+
+   MANUSCRIPT:
+      K. Składanowska, Y. Bloch et al. (2022) <https://doi.org/10.2139/ssrn.4120771>
+EOHELP
 }
