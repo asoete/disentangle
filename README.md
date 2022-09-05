@@ -45,7 +45,7 @@ INTEGRATE step of XDS (INTEGRATE.HKL).  To integrate the secundary lattice
 The resulting filtered.HKL files can be used as input for the CORRECT step of
 XDS. Copy the output left/right.filtered.HKL as INTEGRATE.HKL to new folders
 and run XDS with `JOB=CORRECT` in each folder.  The spots not assigned to the
-lattice (with indices 0 0 0) are purged to speed up calculations.
+lattice (with indices `0 0 0`) are purged to speed up calculations.
 
 ## Manuscript
 
